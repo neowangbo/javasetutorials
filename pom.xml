@@ -17,6 +17,7 @@
 
     <modules>
         <module>classloader</module>
+		<module>jmx</module>
     </modules>
 	
     <build>
