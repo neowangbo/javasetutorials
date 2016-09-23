@@ -48,8 +48,8 @@ public class HelloMBeanServer {
             mbs.registerMBean(mxbean, mxbeanName);
 
             System.out.println("Waiting forever...");
-            Thread.sleep(Long.MAX_VALUE);
-        } catch (MalformedObjectNameException | InstanceAlreadyExistsException | MBeanRegistrationException | NotCompliantMBeanException | InterruptedException ex) {
+            //Thread.sleep(Long.MAX_VALUE);
+        } catch (MalformedObjectNameException | InstanceAlreadyExistsException | MBeanRegistrationException | NotCompliantMBeanException ex) {
             Logger.getLogger(HelloMBeanServer.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
