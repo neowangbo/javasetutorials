@@ -7,16 +7,8 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>jmx</artifactId>
+    <artifactId>essential</artifactId>
     <packaging>jar</packaging>
-    <name>jmx</name>
-    <description>Java SE Tutorials :: jmx</description>
-    
-    <dependencies>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>activemq-all</artifactId>
-            <version>5.14.0</version>
-        </dependency>
-    </dependencies>
+    <name>essential</name>
+    <description>Java SE Tutorials :: essential</description>
 </project>

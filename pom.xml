@@ -16,6 +16,7 @@
     </properties>
 
     <modules>
+        <module>essential</module>
         <module>classloader</module>
 		<module>jmx</module>
     </modules>
