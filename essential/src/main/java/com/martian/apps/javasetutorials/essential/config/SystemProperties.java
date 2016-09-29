@@ -27,7 +27,7 @@ public class SystemProperties {
             System.out.println("2 - System properties: [" + entry.getKey() + "=" + entry.getValue() + "]");
         });
         
-        props.forEach((k,v)->{
+        props.forEach((Object k,Object v)->{
             System.out.println("3 - System properties: [" + k + "=" + v + "]");
         });
     }
