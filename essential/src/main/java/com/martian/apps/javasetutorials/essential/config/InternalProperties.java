@@ -21,7 +21,7 @@ public class InternalProperties {
         try (InputStream in = InternalProperties.class.getClassLoader().getResourceAsStream("config/config-example-1.properties")) {
             props.load(in);
         }
-        props.forEach((k,v)->{
+        props.forEach((Object k, Object v)->{
             System.out.println("[" + k + " = " + v + "]");
         });
     }

@@ -32,7 +32,7 @@ public class ExternalProperties {
         try (FileInputStream in = new FileInputStream(args[0])) {
             props.load(in);
         }
-        props.forEach((k, v) -> {
+        props.forEach((Object k, Object v) -> {
             System.out.println("[" + k + "=" + v + "]");
         });
     }
