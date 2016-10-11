@@ -13,4 +13,4 @@ set val_3=Male
 @echo %key_2%=%val_2%
 @echo %key_3%=%val_3%
 
-java -cp target\essential.jar -D%key_1%="%val_1%" -D%key_2%="%val_2%" -D%key_3%="%val_3%" com.martian.apps.javasetutorials.essential.config.SystemProperties %key_1% %key_2% %key_3%
+java -cp ..\target\essential.jar -D%key_1%="%val_1%" -D%key_2%="%val_2%" -D%key_3%="%val_3%" com.martian.apps.javasetutorials.essential.config.SystemProperties %key_1% %key_2% %key_3%
