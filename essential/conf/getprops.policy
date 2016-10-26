@@ -1,0 +1,8 @@
+/* AUTOMATICALLY GENERATED ON Thu Oct 13 21:58:55 SGT 2016*/
+/* DO NOT EDIT */
+
+grant codeBase "file:C:\DevHome\projects\demos\javasetutorials\essential\target" {
+  permission java.io.FilePermission "file:C:\\DevHome\\projects\\demos\\javasetutorials\\essential\\examples.txt", "read, write";
+  permission java.util.PropertyPermission "*", "read, write";
+};
+

@@ -1,0 +1,1 @@
+java -cp ..\target\essential.jar -Djava.security.manager com.martian.apps.javasetutorials.essential.security.sm.CheckPermission
